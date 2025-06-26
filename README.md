@@ -4,7 +4,7 @@ GrainPalette is a deep learning-powered web application that classifies rice gra
 
 ---
 
-## 🖼️ Project Preview
+##  Project Preview
 
 <!-- Row 1 -->
 <p align="center">
@@ -27,19 +27,19 @@ Watch the demo of the GrainPalette app in action!
 
 ---
 
-## 📌 Features
+##  Features
 
-- 🧠 Built with **Transfer Learning** using Keras/TensorFlow
+-  Built with **Transfer Learning** using Keras/TensorFlow
 - 🌾 Classifies rice into 5 types:
   - Basmati
   - Jasmine
   - Arborio
   - Ipsala
   - karacadag
-- 🖼️ Upload an image and get predictions instantly
-- 📊 Shows prediction with confidence score
-- 🧠 Model code available in `model.ipynb`
-- 🎨 Modern UI with navbar, background, and animations
+-  Upload an image and get predictions instantly
+-  Shows prediction with confidence score
+-  Model code available in `model.ipynb`
+
 
 ---
 
@@ -67,7 +67,7 @@ The development of **GrainPalette** followed a structured approach integrating d
 
 ---
 
-### 🧹 2. Data Preprocessing
+###  2. Data Preprocessing
 
 - All images were resized to a consistent size `(224x224)` for compatibility with CNN models.
 - Pixel values were normalized by dividing by 255.0.
@@ -76,7 +76,7 @@ The development of **GrainPalette** followed a structured approach integrating d
 
 ---
 
-### 🧠 3. Model Building Using Transfer Learning
+###  3. Model Building Using Transfer Learning
 
 - A **pre-trained CNN architecture**  was used as a base model.
 - The top layers were **customized** to match the 5-class classification task.
@@ -97,7 +97,7 @@ The development of **GrainPalette** followed a structured approach integrating d
 
 ---
 
-### 💾 5. Model Saving
+###  5. Model Saving
 
 - Once trained, the model was saved as a `rice.h5` file using:
 
